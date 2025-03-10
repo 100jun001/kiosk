@@ -22,10 +22,21 @@ public class Kiosk1b {
             System.out.println("3. Cheeseburger  | W 6.9 | 포테이토 번과 비프패티, 치즈가 토핑된 치즈버거");
             System.out.println("4. Hamburger     | W 5.4 | 비프패티를 기반으로 야채가 들어간 기본버거");
             System.out.println("0. 종료      | 종료");
-            System.out.println("0 <- // 0을 입력");
+            // 메뉴판
 
-            a = sc.nextInt();
-            sc.nextLine();
+            try {
+                a = sc.nextInt();
+                sc.nextLine();
+                // 입력
+
+            }catch (Exception e){
+                System.out.println("숫자로 입력해주세요!");
+                System.out.println("");
+                sc.nextLine();
+                continue;
+            }
+            //try catch로 오류 잡기
+
 
             if (a == 1) {
                 System.out.println("1. ShackBurger 선택되었습니다.");
