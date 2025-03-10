@@ -41,29 +41,36 @@ public class Kiosk1b {
             if (a == 1) {
                 System.out.println("1. ShackBurger 선택되었습니다.");
                 System.out.println("");
+                // 1번 선택에 대한 메시지
 
             } else if (a == 2) {
                 System.out.println("2. SmokeShack 선택되었습니다.");
                 System.out.println("");
+                // 2번 선택에 대한 메시지
 
             } else if (a == 3) {
                 System.out.println("3. Cheeseburger 선택되었습니다.");
                 System.out.println("");
+                // 3번 선택에 대한 메시지
 
             } else if (a == 4) {
                 System.out.println("4. Hamburger 선택되었습니다.");
                 System.out.println();
+                // 4번 선택에 대한 메시지
 
             } else if (a > 4) {
                 System.out.println("해당하는 번호가 없습니다.");
                 System.out.println();
+                // 4이상의 숫자 입력시 해당하는 번호 없음 출력으로 알림
 
             } else if (a < 0) {
                 System.out.println("해당하는 번호가 없습니다.");
                 System.out.println();
+                // 0이하의 숫자 입력시 해당하는 번호 없음 출력으로 알림
 
             } else {
                 break;
+                // 0입력시 반복문 종료
             }
 
         }
