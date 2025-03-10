@@ -40,21 +40,27 @@ public class Kiosk1b {
 
             if (a == 1) {
                 System.out.println("1. ShackBurger 선택되었습니다.");
+                System.out.println("");
 
             } else if (a == 2) {
                 System.out.println("2. SmokeShack 선택되었습니다.");
+                System.out.println("");
 
             } else if (a == 3) {
                 System.out.println("3. Cheeseburger 선택되었습니다.");
+                System.out.println("");
 
             } else if (a == 4) {
                 System.out.println("4. Hamburger 선택되었습니다.");
+                System.out.println();
 
             } else if (a > 4) {
                 System.out.println("해당하는 번호가 없습니다.");
+                System.out.println();
 
             } else if (a < 0) {
                 System.out.println("해당하는 번호가 없습니다.");
+                System.out.println();
 
             } else {
                 break;
