@@ -32,6 +32,7 @@ public class Kiosk {
     }
 
     public void start(){
+        //변수 선언
         int a = 0;
         String exits = "";
         boolean flag = true;
@@ -72,11 +73,12 @@ public class Kiosk {
                 continue;
             }
 
+            //0을 누르면 종료
             if (flag){
                 System.out.println("다른 메뉴를 선택하시려면 enter를 눌러주세요.");
-                System.out.println("종료하시려면 exit를 눌러주세요.");
+                System.out.println("종료하시려면 0을 눌러주세요.");
                 exits = sc.nextLine();
-                flag = !exits.equals("exit");
+                flag = !exits.equals("0");
             }
 
         }while (flag);
